@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import Head from '../components/Head'
 
 const Wrapper = ({ children }) => {
@@ -9,7 +8,6 @@ const Wrapper = ({ children }) => {
       <Head />
       <Header />
       <div className="wrapper">{children}</div>
-      <Footer />
     </>
   )
 }
