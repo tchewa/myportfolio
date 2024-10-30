@@ -2,11 +2,15 @@ import React from 'react'
 import { Global, css } from '@emotion/react'
 
 const WrapperStyles = () => (
-    <Global
+  <Global
     styles={css`
-        .wrapper {
-            border: 2px solid red;
-            max-width: 1200px;
-        }
+      .wrapper {
+        margin: 0 auto;
+        border: 2px solid red;
+        max-width: 1200px;
+      }
     `}
+  />
 )
+
+export default WrapperStyles
