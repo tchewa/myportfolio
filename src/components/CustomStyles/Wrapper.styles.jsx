@@ -6,8 +6,10 @@ const WrapperStyles = () => (
     styles={css`
       .wrapper {
         margin: 0 auto;
-        border: 2px solid red;
-        max-width: 1200px;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
       }
     `}
   />
