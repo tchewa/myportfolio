@@ -14,7 +14,6 @@ const TypographyStyles = () => (
         font-family: 'Rubik', sans-serif;
         font-weight: 700;
         margin: 0;
-        color: white;
       }
 
       h1,
@@ -30,7 +29,6 @@ const TypographyStyles = () => (
         font-family: 'Alegreya', serif;
         font-size: 24px;
         margin: 0;
-        color: white;
 
         p {
           margin: 0;

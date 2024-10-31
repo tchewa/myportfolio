@@ -24,6 +24,7 @@ const HeaderStyles = () => (
 
         .title {
           text-decoration: none;
+          color: black;
         }
 
         a:not(.title) {

@@ -5,7 +5,7 @@ const CustomStyles = () => (
   <Global
     styles={css`
       .self-pic {
-        background-color: white;
+        background-color: black;
         max-width: 200px;
         padding: 20px;
         margin: 0 auto;

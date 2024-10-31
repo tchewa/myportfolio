@@ -10,6 +10,7 @@ const SideBySideStyles = () => (
 
         .sbs-image {
           animation: slideInRight 1s ease-out forwards;
+          background-color: black;
           width: 50%;
           display: flex;
           flex-direction: column;
@@ -50,7 +51,7 @@ const SideBySideStyles = () => (
         .sbs-content {
           animation: slideInLeft 1s ease-out forwards;
           width: 50%;
-          background-color: white;
+          background-color: black;
           padding: 20px;
           display: flex;
           flex-direction: column;
@@ -64,7 +65,7 @@ const SideBySideStyles = () => (
 
           h2,
           p {
-            color: black;
+            color: white;
           }
         }
       }

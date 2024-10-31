@@ -17,7 +17,7 @@ const IndexPage = () => {
           <p className="large">
             I'm a passionate front-end web developer with a strong foundation in
             React, JavaScript, HTML, Sass, and many other front-end web
-            technologies, with a little PHP experience sprinkled in
+            technologies
           </p>
         </div>
         <SideBySide
