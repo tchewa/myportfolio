@@ -7,8 +7,11 @@ const BasicStyles = ({ bgColor }) => (
       background-color: ${bgColor};
       width: 100%;
 
+      .basic-content {
+        padding: 0 20px;
+      }
+
       .content-container {
-        padding: 20px;
         max-width: 1200px;
         margin: 0 auto;
         display: flex;

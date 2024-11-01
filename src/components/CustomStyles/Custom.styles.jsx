@@ -6,6 +6,7 @@ const CustomStyles = () => (
     styles={css`
       * {
         box-sizing: border-box;
+        overflow-x: hidden;
       }
 
       .hide-on-mobile {
@@ -38,6 +39,7 @@ const CustomStyles = () => (
 
         .logo-container {
           max-width: 1200px;
+          width: 100%;
           margin: 0 auto;
           display: flex;
           justify-content: space-between;

@@ -17,6 +17,7 @@ import directv from '../images/company-logos/directv.png'
 import dish from '../images/company-logos/dish.png'
 import verizon from '../images/company-logos/verizon.png'
 import windstream from '../images/company-logos/windstream.png'
+import Testimonials from '../components/Testimonials'
 
 const IndexPage = () => {
   return (
@@ -46,6 +47,7 @@ const IndexPage = () => {
           content="I have had the pleasure of contributing to a substantial number of projects with multiple well-regarded companies."
         />
 
+        {/* need to convert this to it's own component at some point */}
         <div className="company-logos">
           <div className="logo-container">
             <img src={ciena} alt="ciena logo" />
@@ -56,6 +58,20 @@ const IndexPage = () => {
             <img src={dish} alt="dish logo" />
           </div>
         </div>
+
+        <Testimonials
+          bgColor="black"
+          heading="People i've worked with"
+          content="I've been truly fortunate to work with and learn from some very talented and amazing individuals. Here's what they say about me."
+          content={
+            <Columns>
+              <Column caption="This will be a comment" />
+              <Column caption="This will be another comment" />
+              <Column caption="This will be yet another comment" />
+              <Column caption="This will be one more too" />
+            </Columns>
+          }
+        />
 
         <Columns heading="Current Personal Works in Progress">
           <Column
@@ -72,7 +88,7 @@ const IndexPage = () => {
           />
         </Columns>
 
-        <Columns heading="A Couple Other Little Apps" bgColor="black">
+        <Columns heading="A Couple Other Silly Things" bgColor="black">
           <Column
             link="https://multiplication-table-ryan.netlify.app/"
             image={multiplication}

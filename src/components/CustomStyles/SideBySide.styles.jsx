@@ -1,7 +1,7 @@
 import React from 'react'
 import { Global, css } from '@emotion/react'
 
-const SideBySideStyles = ({ darkBg }) => (
+const SideBySideStyles = () => (
   <Global
     styles={css`
       .sbs-container {
@@ -52,7 +52,7 @@ const SideBySideStyles = ({ darkBg }) => (
           display: flex;
           flex-direction: column;
           gap: 12px;
-          padding-left: calc(50% - 580px);
+          padding-left: calc(50% - 600px);
           justify-content: center;
 
           @media screen and (max-width: 1250px) {
