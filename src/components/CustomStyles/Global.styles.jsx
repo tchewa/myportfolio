@@ -6,6 +6,7 @@ import HeaderStyles from './Header.styles'
 import LayoutStyles from './Layout.styles'
 import CustomStyles from './Custom.styles'
 import SideBySideStyles from './SideBySide.styles'
+import ColumnsStyles from './Columns.styles'
 
 const BaseStyles = () => (
   <>
@@ -15,6 +16,7 @@ const BaseStyles = () => (
     <TypographyStyles />
     <CustomStyles />
     <SideBySideStyles />
+    <ColumnsStyles />
   </>
 )
 

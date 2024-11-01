@@ -19,10 +19,18 @@ const TypographyStyles = () => (
       h1,
       .title {
         font-size: 48px;
+
+        @media screen and (max-width: 750px) {
+          font-size: 30px;
+        }
       }
 
       h2 {
         font-size: 30px;
+
+        @media screen and (max-width: 750px) {
+          font-size: 25px;
+        }
       }
 
       body {
@@ -30,11 +38,20 @@ const TypographyStyles = () => (
         font-size: 24px;
         margin: 0;
 
+        @media screen and (max-width: 750px) {
+          font-size: 20px;
+        }
+
         p {
           margin: 0;
 
           &.large {
             font-size: 30px;
+            max-width: 800px;
+
+            @media screen and (max-width: 750px) {
+              font-size: 24px;
+            }
           }
         }
       }

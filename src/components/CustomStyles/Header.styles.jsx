@@ -20,6 +20,7 @@ const HeaderStyles = () => (
         @media screen and (max-width: 750px) {
           margin: unset;
           width: unset;
+          border-bottom: 2px solid black;
         }
 
         .title {
@@ -32,6 +33,30 @@ const HeaderStyles = () => (
           color: inherit;
           font-size: 34px;
           font-family: 'Rubik', sans-serif;
+        }
+
+        .code-effect {
+          white-space: nowrap;
+          overflow: hidden;
+          display: inline-block;
+          border-right: 2px solid black;
+          animation: typing 1s steps(30, end),
+            blink-cursor 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+          from {
+            width: 0;
+          }
+          to {
+            width: 11ch;
+          }
+        }
+
+        @keyframes blink-cursor {
+          50% {
+            border-color: transparent;
+          }
         }
       }
     `}

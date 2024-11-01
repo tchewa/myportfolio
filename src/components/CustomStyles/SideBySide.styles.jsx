@@ -1,7 +1,7 @@
 import React from 'react'
 import { Global, css } from '@emotion/react'
 
-const SideBySideStyles = () => (
+const SideBySideStyles = ({ darkBg }) => (
   <Global
     styles={css`
       .sbs-container {
@@ -10,7 +10,6 @@ const SideBySideStyles = () => (
 
         .sbs-image {
           animation: slideInRight 1s ease-out forwards;
-          background-color: black;
           width: 50%;
           display: flex;
           flex-direction: column;
@@ -18,12 +17,8 @@ const SideBySideStyles = () => (
           justify-content: center;
           padding-right: calc(50% - 580px);
 
-          @media screen an (max-width: 1250px) {
+          @media screen and (max-width: 1250px) {
             padding-right: 20px;
-          }
-
-          @media screen and (max-width: 750px) {
-            justify-content: flex-start;
           }
 
           img {
@@ -51,7 +46,6 @@ const SideBySideStyles = () => (
         .sbs-content {
           animation: slideInLeft 1s ease-out forwards;
           width: 50%;
-          background-color: black;
           padding: 20px;
           display: flex;
           flex-direction: column;
@@ -61,11 +55,6 @@ const SideBySideStyles = () => (
 
           @media screen and (max-width: 1250px) {
             padding-left: 20px;
-          }
-
-          h2,
-          p {
-            color: white;
           }
         }
       }
@@ -96,6 +85,21 @@ const SideBySideStyles = () => (
         to {
           transform: translateX(0);
           opacity: 1;
+        }
+      }
+
+      .mobile-image-stack {
+        display: none;
+
+        @media screen and (max-width: 750px) {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+          gap: 20px;
+
+          img {
+            max-width: 110px;
+          }
         }
       }
     `}

@@ -11,7 +11,11 @@ const LayoutStyles = () => (
         display: flex;
         flex-direction: column;
         gap: 16px;
-        padding: 30px 0;
+        padding: 30px 20px;
+
+        @media screen and (max-width: 750px) {
+          padding: 0 20px;
+        }
       }
 
       #gatsby-focus-wrapper {
