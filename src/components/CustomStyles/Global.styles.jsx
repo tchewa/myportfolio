@@ -7,6 +7,7 @@ import LayoutStyles from './Layout.styles'
 import CustomStyles from './Custom.styles'
 import SideBySideStyles from './SideBySide.styles'
 import ColumnsStyles from './Columns.styles'
+import BasicStyles from './Basic.styles'
 
 const BaseStyles = () => (
   <>
@@ -17,6 +18,7 @@ const BaseStyles = () => (
     <CustomStyles />
     <SideBySideStyles />
     <ColumnsStyles />
+    <BasicStyles />
   </>
 )
 

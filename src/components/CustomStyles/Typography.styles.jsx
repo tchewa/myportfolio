@@ -26,7 +26,7 @@ const TypographyStyles = () => (
       }
 
       h2 {
-        font-size: 30px;
+        font-size: 34px;
 
         @media screen and (max-width: 750px) {
           font-size: 25px;
@@ -52,6 +52,12 @@ const TypographyStyles = () => (
             @media screen and (max-width: 750px) {
               font-size: 24px;
             }
+          }
+
+          &.caption {
+            font-weight: bold;
+            opacity: 0.75;
+            text-align: center;
           }
         }
       }

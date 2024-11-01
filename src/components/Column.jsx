@@ -1,11 +1,24 @@
 import React from 'react'
 
-const Column = ({ link, image, alt }) => {
+const Column = ({ link, image, alt, caption, github }) => {
   return (
     <div className="column">
-      <a href={link}>
-        <img src={image} alt={alt} />
-      </a>
+      {link && (
+        <a href={link} target="_blank" rel="noreferrer">
+          <img src={image} alt={alt} />
+        </a>
+      )}
+      {caption && <p className="caption">{caption}</p>}
+      {github && (
+        <a
+          href={github}
+          className="github-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {github}
+        </a>
+      )}
     </div>
   )
 }

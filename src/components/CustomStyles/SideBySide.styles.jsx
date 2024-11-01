@@ -10,6 +10,7 @@ const SideBySideStyles = ({ darkBg }) => (
 
         .sbs-image {
           animation: slideInRight 1s ease-out forwards;
+          animation-delay: 3s;
           width: 50%;
           display: flex;
           flex-direction: column;
@@ -45,6 +46,7 @@ const SideBySideStyles = ({ darkBg }) => (
 
         .sbs-content {
           animation: slideInLeft 1s ease-out forwards;
+          animation-delay: 1.5s;
           width: 50%;
           padding: 20px;
           display: flex;

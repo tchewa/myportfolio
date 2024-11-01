@@ -1,10 +1,22 @@
 import * as React from 'react'
 import Wrapper from '../components/Wrapper'
-import selfPic from '../images/self-pic.png'
 import SideBySide from '../components/SideBySide'
-import techLogos from '../images/tech-logos.png'
 import Columns from '../components/Columns'
 import Column from '../components/Column'
+import BasicContent from '../components/BasicContent'
+
+import techLogos from '../images/tech-logos.png'
+import selfPic from '../images/self-pic.png'
+import photography from '../images/site-thumbnails/photography-final.png'
+import greens from '../images/site-thumbnails/mygreens-final.png'
+import multiplication from '../images/site-thumbnails/multiplication.png'
+import javascriptClock from '../images/site-thumbnails/javascript-clock.png'
+import ciena from '../images/company-logos/ciena.png'
+import centurylink from '../images/company-logos/centurylink.png'
+import directv from '../images/company-logos/directv.png'
+import dish from '../images/company-logos/dish.png'
+import verizon from '../images/company-logos/verizon.png'
+import windstream from '../images/company-logos/windstream.png'
 
 const IndexPage = () => {
   return (
@@ -28,10 +40,51 @@ const IndexPage = () => {
           mobileImageStack
           darkBg
         />
-        <Columns>
-          <Column link="google.com" alt="this is alt" />
-          <Column link="google.com" alt="this is alt" />
-          <Column link="google.com" alt="this is alt" />
+        <BasicContent
+          bgColor="white"
+          heading="Companies I've Done Work For"
+          content="I have had the pleasure of contributing to a substantial number of projects with multiple well-regarded companies."
+        />
+
+        <div className="company-logos">
+          <div className="logo-container">
+            <img src={ciena} alt="ciena logo" />
+            <img src={directv} alt="directv logo" />
+            <img src={verizon} alt="verizon logo" />
+            <img src={windstream} alt="windstream logo" />
+            <img src={centurylink} alt="ciena logo" />
+            <img src={dish} alt="dish logo" />
+          </div>
+        </div>
+
+        <Columns heading="Current Personal Works in Progress">
+          <Column
+            link="https://ryanwassomphotography.netlify.app/"
+            image={photography}
+            alt="Ryan Wassom Photography"
+            caption="Ryan Wassom Photography"
+          />
+          <Column
+            link="https://mygreens.netlify.app/"
+            image={greens}
+            alt="MyGreens Site"
+            caption="myGreens"
+          />
+        </Columns>
+
+        <Columns heading="A Couple Other Little Apps" bgColor="black">
+          <Column
+            link="https://multiplication-table-ryan.netlify.app/"
+            image={multiplication}
+            alt="Multiply Me"
+            github="https://github.com/tchewa/multiply-me"
+          />
+          <Column
+            link="https://ryanw-javascript-clock.netlify.app/"
+            image={javascriptClock}
+            alt="Javascript Clock"
+            github="https://github.com/tchewa/javascript-clock"
+          />
         </Columns>
       </Wrapper>
     </>
