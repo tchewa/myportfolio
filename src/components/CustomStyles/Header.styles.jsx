@@ -59,6 +59,36 @@ const HeaderStyles = () => (
           }
         }
       }
+
+      .right-block {
+        display: flex;
+        gap: 15px;
+      }
+
+      .social-logo {
+        .hide-default {
+          display: none;
+        }
+
+        &.linkedin,
+        &.email {
+          &:hover {
+            .hide-default {
+              display: block;
+            }
+
+            .hide-on-hover {
+              display: none;
+            }
+          }
+        }
+
+        &.email {
+          &:hover {
+            background-color: black !important;
+          }
+        }
+      }
     `}
   />
 )

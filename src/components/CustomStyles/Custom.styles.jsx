@@ -30,6 +30,7 @@ const CustomStyles = () => (
       .bg-black {
         background-color: black;
         color: white;
+        padding: 20px 0;
       }
 
       .company-logos {
@@ -55,6 +56,10 @@ const CustomStyles = () => (
               width: 33%;
             }
           }
+
+          @media screen and (max-width: 750px) {
+            width: unset;
+          }
         }
 
         img {
@@ -66,6 +71,38 @@ const CustomStyles = () => (
         text-decoration: none;
         color: white;
         font-size: 20px;
+      }
+
+      .bg-white {
+        background-color: white;
+        color: black;
+      }
+
+      .social-logo {
+        border-radius: 30px;
+        border: 2px solid black;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: 750px) {
+          width: 40px;
+          height: 40px;
+        }
+
+        img {
+          max-width: 100%;
+        }
+
+        &.email,
+        &.email-footer {
+          img {
+            max-width: 75%;
+          }
+        }
       }
     `}
   />

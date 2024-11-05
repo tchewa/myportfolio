@@ -12,6 +12,7 @@ const BasicStyles = ({ bgColor }) => (
       }
 
       .content-container {
+        text-align: center;
         max-width: 1200px;
         margin: 0 auto;
         display: flex;

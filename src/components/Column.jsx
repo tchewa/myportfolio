@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Column = ({ link, image, alt, caption, github }) => {
+const Column = ({ link, image, alt, bgColor, caption, github, rounded }) => {
   return (
-    <div className="column">
+    <div
+      className={`column bg-${bgColor ? bgColor : 'white'} ${
+        rounded ? 'rounded' : ''
+      }`}
+    >
       {link && (
         <a href={link} target="_blank" rel="noreferrer">
           <img src={image} alt={alt} />

@@ -6,36 +6,33 @@ const ColumnsStyles = () => (
     styles={css`
       .columns-container {
         width: 100%;
-      }
-
-      .columns-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        width: 100%;
-        padding: 20px 0;
         display: flex;
         flex-direction: column;
         gap: 20px;
+        padding: 0 20px;
 
-        @media screen and (max-width: 1200px) {
-          padding: 20px;
+        &.bg-black {
+          padding: 20px 0;
+        }
+
+        * {
+          max-width: 1200px;
+          margin: 0 auto;
         }
       }
 
-      .column-container {
+      .columns-content {
         width: 100%;
+        margin: 0 auto;
         display: flex;
         gap: 20px;
-        justify-content: space-evenly;
 
         @media screen and (max-width: 750px) {
           flex-direction: column;
+          padding: 0 20px;
         }
 
         .column {
-          border-radius: 20px;
-          flex-grow: 1;
-          max-width: 50%;
           display: flex;
           flex-direction: column;
           gap: 12px;
@@ -54,6 +51,14 @@ const ColumnsStyles = () => (
             width: 100%;
             display: block;
           }
+
+          &.rounded {
+            border-radius: 20px;
+          }
+        }
+
+        em {
+          padding: 20px;
         }
       }
     `}

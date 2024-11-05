@@ -4,8 +4,8 @@ const Testimonials = ({ heading, subheading, content, bgColor }) => {
   return (
     <div className={`testimonials bg-${bgColor}`}>
       <div className="testimonial-container">
-        <h2>{heading}</h2>
-        <p>{subheading}</p>
+        {heading && <h2>{heading}</h2>}
+        {subheading && <h4>{subheading}</h4>}
         {content}
       </div>
     </div>
