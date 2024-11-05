@@ -16,7 +16,7 @@ const BackToTopStyles = () => (
         height: 3rem;
         cursor: pointer;
         font-size: 1.5rem;
-        zindex: 1000;
+        z-index: 1000;
         display: flex;
         align-items: center;
         justify-content: center;
