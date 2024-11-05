@@ -22,6 +22,7 @@ const BackToTopStyles = () => (
         justify-content: center;
         box-shadow: 0 8px 16px rgba(125, 125, 125, 0.3);
         transition: box-shadow 0.3s ease, transform 0.3s ease;
+        flex-direction: column;
 
         span {
           display: block;
