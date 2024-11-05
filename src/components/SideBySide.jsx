@@ -9,10 +9,13 @@ const SideBySide = ({
   alt,
   darkBg,
   mobileImageStack,
+  wrapImageBottom,
 }) => {
   return (
     <div
-      className="sbs-container"
+      className={`sbs-container  ${
+        wrapImageBottom && 'wrap-image-under-mobile'
+      }`}
       style={{ backgroundColor: darkBg ? 'black' : 'unset' }}
     >
       <div className="sbs-content">

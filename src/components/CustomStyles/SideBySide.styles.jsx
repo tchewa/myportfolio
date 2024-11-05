@@ -8,22 +8,29 @@ const SideBySideStyles = () => (
         display: flex;
         overflow: hidden;
 
+        &.wrap-image-under-mobile {
+          @media screen and (max-width: 1024px) {
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .sbs-content {
+              width: 100%;
+            }
+          }
+        }
+
         .sbs-image {
           animation: slideInRight 1s ease-out forwards;
           animation-delay: 3s;
-          width: 50%;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          padding-right: calc(50% - 580px);
-
-          @media screen and (max-width: 1250px) {
-            padding-right: 20px;
-          }
 
           img {
-            width: 100%;
+            width: 50%;
           }
 
           .mobile-image {
@@ -36,9 +43,7 @@ const SideBySideStyles = () => (
           }
 
           .desktop-image {
-            max-width: 75%;
-
-            @media screen and (max-width: 750px) {
+            @media screen and (max-width: 1024px) {
               display: none;
             }
           }
@@ -93,14 +98,19 @@ const SideBySideStyles = () => (
       .mobile-image-stack {
         display: none;
 
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 1024px) {
+          width: 100%;
           display: flex;
           flex-wrap: wrap;
-          justify-content: flex-end;
           gap: 20px;
+          justify-content: space-evenly;
 
           img {
             max-width: 110px;
+
+            @media screen and (max-width: 750px) {
+              max-width: 85px;
+            }
           }
         }
       }
