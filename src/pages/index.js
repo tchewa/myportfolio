@@ -37,7 +37,7 @@ const IndexPage = () => {
         </div>
         <SideBySide
           heading="Crafting Dynamic Web Experiences with Modern Technologies"
-          content="I bring hands-on experience with frameworks like Gatsby, CMS applications such as Contentful, Wordpress, and Clickability, and technologies like GraphQL to create dynamic, user-centered, and maintainable web experiences while continuously striving to stay updated with industry trends and expand my skill set. "
+          content="I bring hands-on experience with frameworks like Gatsby, CMS applications such as Contentful, Wordpress, and Clickability, and technologies like GraphQL to create dynamic, user-centered, and maintainable web experiences. I ambitiously work to stay updated and informed of industry trends and continuously strive to expand my skill set."
           image={techLogos}
           mobileImageStack
           darkBg
