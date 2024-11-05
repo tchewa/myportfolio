@@ -18,7 +18,7 @@ const TypographyStyles = () => (
 
       h1,
       .title {
-        font-size: 48px;
+        font-size: 40px;
 
         @media screen and (max-width: 750px) {
           font-size: 30px;

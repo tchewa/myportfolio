@@ -68,17 +68,6 @@ const IndexPage = () => {
             <>
               <div className="recommendation-wrapper">
                 <p className="recommendation">
-                  "I had the pleasure of working with Ryan for almost 6 years at
-                  Clearlink. Not only is he a great person, he’s a machine that
-                  can crank through tasks like you wouldn’t believe. He has my
-                  full recommendation."
-                  <span className="recommender-title">
-                    - Cody Packer, Senior Software Engineer at Clearlink
-                  </span>
-                  <img src={linkedin} alt="linkedin logo" />
-                </p>
-
-                <p className="recommendation">
                   "I have loved working with Ryan for almost six years now. He
                   was cheerful, he was inquisitive, he was a problem-solver, and
                   he was extremely versatile. As a front end developer he was
@@ -89,6 +78,17 @@ const IndexPage = () => {
                   force on your team, Ryan’s your man."
                   <span className="recommender-title">
                     - Alec Sears, Digital Marketing Manager at Clearlink
+                  </span>
+                  <img src={linkedin} alt="linkedin logo" />
+                </p>
+
+                <p className="recommendation">
+                  "I had the pleasure of working with Ryan for almost 6 years at
+                  Clearlink. Not only is he a great person, he’s a machine that
+                  can crank through tasks like you wouldn’t believe. He has my
+                  full recommendation."
+                  <span className="recommender-title">
+                    - Cody Packer, Senior Software Engineer at Clearlink
                   </span>
                   <img src={linkedin} alt="linkedin logo" />
                 </p>

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Head from '../components/Head'
 import Footer from '../components/Footer'
+import BackToTopButton from './BackToTopButton'
 
 const Wrapper = ({ children }) => {
   return (
@@ -10,6 +11,7 @@ const Wrapper = ({ children }) => {
       <Header />
       <div className="wrapper">{children}</div>
       <Footer />
+      <BackToTopButton />
     </>
   )
 }

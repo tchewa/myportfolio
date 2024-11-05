@@ -10,7 +10,7 @@ const FooterStyles = () => (
         background-color: black;
 
         @media screen and (max-width: 750px) {
-          border-top: 20px solid white;
+          border-top: 2px solid white;
         }
 
         .content {
