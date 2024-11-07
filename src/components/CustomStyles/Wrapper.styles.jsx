@@ -10,6 +10,7 @@ const WrapperStyles = () => (
         display: flex;
         flex-direction: column;
         gap: 32px;
+        width: 100%;
 
         @media screen and (max-width: 750px) {
           padding: 0;

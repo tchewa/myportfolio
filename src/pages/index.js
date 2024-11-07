@@ -19,6 +19,7 @@ import dish from '../images/company-logos/dish.png'
 import verizon from '../images/company-logos/verizon.png'
 import windstream from '../images/company-logos/windstream.png'
 import linkedin from '../images/linkedin.png'
+import cardCarousel from '../images/site-thumbnails/card-carousel.png'
 
 const IndexPage = () => {
   return (
@@ -82,7 +83,13 @@ const IndexPage = () => {
                   <span className="recommender-title">
                     - Alec Sears, Digital Marketing Manager at Clearlink
                   </span>
-                  <img src={linkedin} alt="linkedin logo" />
+                  <a
+                    href="https://www.linkedin.com/in/alec-sears-b18687a4/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={linkedin} alt="linkedin logo" />
+                  </a>
                 </p>
 
                 <p className="recommendation">
@@ -93,7 +100,13 @@ const IndexPage = () => {
                   <span className="recommender-title">
                     - Cody Packer, Senior Software Engineer at Clearlink
                   </span>
-                  <img src={linkedin} alt="linkedin logo" />
+                  <a
+                    href="https://www.linkedin.com/in/cody-packer/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={linkedin} alt="linkedin logo" />
+                  </a>
                 </p>
 
                 <p className="recommendation">
@@ -116,7 +129,13 @@ const IndexPage = () => {
                   <span className="recommender-title">
                     - Taylor Dawson, Staff Software Engineer at AudioEye
                   </span>
-                  <img src={linkedin} alt="linkedin logo" />
+                  <a
+                    href="https://www.linkedin.com/in/taylor-dawson-482927123/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={linkedin} alt="linkedin logo" />
+                  </a>
                 </p>
 
                 <p className="recommendation">
@@ -142,7 +161,13 @@ const IndexPage = () => {
                     - Caleb Flanagan, Senior Software Engineering Manager at
                     Clearlink
                   </span>
-                  <img src={linkedin} alt="linkedin logo" />
+                  <a
+                    href="https://www.linkedin.com/in/caleb-flanagan-522a7289/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={linkedin} alt="linkedin logo" />
+                  </a>
                 </p>
               </div>
             </>
@@ -171,6 +196,13 @@ const IndexPage = () => {
             alt="Multiply Me"
             bgColor="black"
             github="https://github.com/tchewa/multiply-me"
+          />
+          <Column
+            link="https://codepen.io/tchewa/pen/aVVgJa"
+            image={cardCarousel}
+            alt="Card Carousel"
+            bgColor="black"
+            github="https://codepen.io/tchewa/pen/aVVgJa"
           />
           <Column
             link="https://ryanw-javascript-clock.netlify.app/"

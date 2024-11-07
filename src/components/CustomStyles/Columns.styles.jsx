@@ -50,6 +50,11 @@ const ColumnsStyles = () => (
           a {
             width: 100%;
             display: block;
+            max-width: 75%;
+
+            @media screen and (max-width: 750px) {
+              max-width: 100%;
+            }
           }
 
           &.rounded {
