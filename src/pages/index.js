@@ -14,7 +14,6 @@ import photography from '../images/site-thumbnails/photography-final.png'
 import greens from '../images/site-thumbnails/mygreens-final.png'
 import multiplication from '../images/site-thumbnails/multiplication.png'
 import javascriptClock from '../images/site-thumbnails/javascript-clock.png'
-
 import cardCarousel from '../images/site-thumbnails/card-carousel.png'
 import CompanyLogos from '../components/CompanyLogos'
 
