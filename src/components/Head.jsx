@@ -21,11 +21,11 @@ export const Head = () => {
     <>
       <Helmet>
         <html lang="en" />
+        <title>{data.site.siteMetadata.title}</title>
+        <meta name="description" content={data.site.siteMetadata.description} />
+        <meta property="og:image" content={sitethumbnail} />
       </Helmet>
       <BaseStyles />
-      <title>{data.site.siteMetadata.title}</title>
-      <meta name="description" content={data.site.siteMetadata.description} />
-      <meta property="og:image" content={sitethumbnail} />
     </>
   )
 }
