@@ -46,7 +46,7 @@ const TestimonialStyles = () => (
       .recommendation-wrapper {
         display: flex;
         gap: 12px;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
 
         .recommendation {
