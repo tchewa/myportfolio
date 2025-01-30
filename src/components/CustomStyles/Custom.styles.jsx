@@ -78,6 +78,16 @@ const CustomStyles = () => (
         color: black;
       }
 
+      .bg-gray {
+        background-color: #dddddd;
+        padding: 20px 0;
+        border-radius: 30px;
+
+        & * {
+          color: black;
+        }
+      }
+
       .social-logo {
         border-radius: 30px;
         border: 2px solid black;
@@ -102,6 +112,27 @@ const CustomStyles = () => (
           img {
             max-width: 75%;
           }
+        }
+      }
+
+      .hacker-article {
+        text-align: left;
+        border-top: 5px solid black;
+        padding: 30px 0;
+
+        .article-count {
+          display: flex;
+          align-items: center;
+        }
+
+        a {
+          text-decoration: underline;
+          color: inherit;
+        }
+
+        .article-number {
+          font-size: 50px;
+          margin-right: 10px;
         }
       }
     `}

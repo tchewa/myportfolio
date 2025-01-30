@@ -36,6 +36,7 @@ const ColumnsStyles = () => (
           display: flex;
           flex-direction: column;
           gap: 12px;
+          padding: 20px;
 
           @media screen and (max-width: 750px) {
             max-width: unset;
@@ -65,6 +66,21 @@ const ColumnsStyles = () => (
         em {
           padding: 20px;
         }
+      }
+
+      .skills {
+        span {
+          background-color: black;
+          color: white;
+          margin: 10px;
+          padding: 5px;
+          font-size: 0.75em;
+          font-family: 'Courier New';
+        }
+      }
+
+      .single-column {
+        max-width: 50%;
       }
     `}
   />

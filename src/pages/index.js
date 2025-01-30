@@ -16,6 +16,7 @@ import multiplication from '../images/site-thumbnails/multiplication.png'
 import javascriptClock from '../images/site-thumbnails/javascript-clock.png'
 import cardCarousel from '../images/site-thumbnails/card-carousel.png'
 import CompanyLogos from '../components/CompanyLogos'
+import hacker from '../images/site-thumbnails/hacker.png'
 
 const IndexPage = () => {
   return (
@@ -53,18 +54,15 @@ const IndexPage = () => {
           content={recommendations}
         />
 
-        <Columns heading="Current Personal Works in Progress">
+        <Columns heading="Current Code Challenges" bgColor="white">
           <Column
-            link="https://ryanwassomphotography.netlify.app/"
-            image={photography}
-            alt="Ryan Wassom Photography"
-            caption="Ryan Wassom Photography"
-          />
-          <Column
-            link="https://mygreens.netlify.app/"
-            image={greens}
-            alt="MyGreens Site"
-            caption="myGreens"
+            link="/hacker-top-10"
+            image={hacker}
+            alt="Multiply Me"
+            noTarget
+            singleItem
+            bgColor="gray"
+            skills="React,Fetch API,useState"
           />
         </Columns>
 
@@ -89,6 +87,21 @@ const IndexPage = () => {
             alt="Javascript Clock"
             bgColor="black"
             github="https://github.com/tchewa/javascript-clock"
+          />
+        </Columns>
+
+        <Columns heading="Current Personal Works in Progress">
+          <Column
+            link="https://ryanwassomphotography.netlify.app/"
+            image={photography}
+            alt="Ryan Wassom Photography"
+            caption="Ryan Wassom Photography"
+          />
+          <Column
+            link="https://mygreens.netlify.app/"
+            image={greens}
+            alt="MyGreens Site"
+            caption="myGreens"
           />
         </Columns>
       </Wrapper>

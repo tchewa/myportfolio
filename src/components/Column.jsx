@@ -1,14 +1,25 @@
 import React from 'react'
 
-const Column = ({ link, image, alt, bgColor, caption, github, rounded }) => {
+const Column = ({
+  link,
+  noTarget,
+  image,
+  alt,
+  bgColor,
+  singleItem,
+  caption,
+  github,
+  skills,
+  rounded,
+}) => {
   return (
     <div
       className={`column bg-${bgColor ? bgColor : 'white'} ${
         rounded ? 'rounded' : ''
-      }`}
+      } ${singleItem ? 'single-column' : ''}`}
     >
       {link && (
-        <a href={link} target="_blank" rel="noreferrer">
+        <a href={link} target={noTarget ? '_self' : '_blank'} rel="noreferrer">
           <img src={image} alt={alt} />
         </a>
       )}
@@ -22,6 +33,14 @@ const Column = ({ link, image, alt, bgColor, caption, github, rounded }) => {
         >
           {github}
         </a>
+      )}
+      {skills && (
+        <div className="skills">
+          Skills:
+          {skills.split(',').map((skill) => (
+            <span>{skill}</span>
+          ))}
+        </div>
       )}
     </div>
   )
