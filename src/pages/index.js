@@ -62,7 +62,7 @@ const IndexPage = () => {
             noTarget
             singleItem
             bgColor="gray"
-            skills="React,Fetch API,useState"
+            skills="React,Fetch API"
           />
         </Columns>
 

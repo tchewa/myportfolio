@@ -4,6 +4,12 @@ import { Global, css } from '@emotion/react'
 const LayoutStyles = () => (
   <Global
     styles={css`
+      .centered-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+      }
+
       .centered-content {
         max-width: 1200px;
         margin: 0 auto;

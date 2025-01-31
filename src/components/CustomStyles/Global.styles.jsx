@@ -11,6 +11,7 @@ import BasicStyles from './Basic.styles'
 import TestimonialStyles from './Testimonials.styles'
 import FooterStyles from './Footer.styles'
 import BackToTopStyles from './BackToTop.styles'
+import MemoryGameStyles from './MemoryGame.styles'
 
 const BaseStyles = () => (
   <>
@@ -24,6 +25,7 @@ const BaseStyles = () => (
     <BasicStyles />
     <TestimonialStyles />
     <BackToTopStyles />
+    <MemoryGameStyles />
     <FooterStyles />
   </>
 )
