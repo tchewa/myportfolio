@@ -7,6 +7,7 @@ const CustomStyles = () => (
       * {
         box-sizing: border-box;
         overflow-x: hidden;
+        white-space: pre-line;
       }
 
       .hide-on-mobile {

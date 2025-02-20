@@ -24,7 +24,7 @@ const IndexPage = () => {
       <Wrapper>
         <BasicContent
           centered
-          mainHeading="Crafting Digital Experiences, One Pixel at a Time"
+          mainHeading={`Crafting Digital Experiences, \nOne Pixel at a Time`}
           largeContent="I'm a passionate front-end web developer with a strong foundation in React, JavaScript, HTML, Sass, and many other front-end web technologies"
           image={selfPic}
         />
