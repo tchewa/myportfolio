@@ -1,4 +1,6 @@
 import React from 'react'
+import githubIcon from '../images/github.png'
+import codepenIcon from '../images/codepen.png'
 
 const Column = ({
   link,
@@ -9,6 +11,7 @@ const Column = ({
   singleItem,
   caption,
   github,
+  codepen,
   skills,
   rounded,
 }) => {
@@ -23,17 +26,24 @@ const Column = ({
           <img src={image} alt={alt} />
         </a>
       )}
-      {caption && <p className="caption">{caption}</p>}
-      {github && (
-        <a
-          href={github}
-          className="github-link"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {github}
-        </a>
-      )}
+      <div className="repo-links">
+        {caption && <p className="caption">{caption}</p>}
+        {(github || codepen) && (
+          <a
+            href={github || codepen}
+            target="_blank"
+            rel="noreferrer"
+            className={github ? 'github-link' : 'codepen-link'}
+          >
+            <div className="icon-bg">
+              <img
+                src={github ? githubIcon : codepenIcon}
+                alt={github ? 'Github Icon' : 'CodePen Icon'}
+              />
+            </div>
+          </a>
+        )}
+      </div>
       {skills && (
         <div className="skills">
           Skills:

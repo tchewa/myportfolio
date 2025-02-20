@@ -28,8 +28,8 @@ const CustomStyles = () => (
       }
 
       .bg-black {
-        background-color: black;
-        color: white;
+        background-color: var(--clr-dark);
+        color: var(--clr-light);
         padding: 20px 0;
       }
 
@@ -69,28 +69,28 @@ const CustomStyles = () => (
 
       .github-link {
         text-decoration: none;
-        color: white;
+        color: var(--clr-light);
         font-size: 20px;
       }
 
       .bg-white {
-        background-color: white;
-        color: black;
+        background-color: var(--clr-light);
+        color: var(--clr-dark);
       }
 
       .bg-gray {
-        background-color: #dddddd;
+        background-color: var(--clr-gray);
         padding: 20px 0;
         border-radius: 30px;
 
         & * {
-          color: black;
+          color: var(--clr-dark);
         }
       }
 
       .social-logo {
         border-radius: 30px;
-        border: 2px solid black;
+        border: 2px solid var(--clr-dark);
         width: 50px;
         height: 50px;
         display: flex;
@@ -117,7 +117,7 @@ const CustomStyles = () => (
 
       .hacker-article {
         text-align: left;
-        border-top: 5px solid black;
+        border-top: 5px solid var(--clr-dark);
         padding: 30px 0;
 
         .article-count {

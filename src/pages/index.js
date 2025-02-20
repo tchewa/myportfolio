@@ -72,6 +72,7 @@ const IndexPage = () => {
             image={multiplication}
             alt="Multiply Me"
             bgColor="black"
+            caption="Multiplication Table"
             github="https://github.com/tchewa/multiply-me"
           />
           <Column
@@ -79,12 +80,14 @@ const IndexPage = () => {
             image={cardCarousel}
             alt="Card Carousel"
             bgColor="black"
-            github="https://codepen.io/tchewa/pen/aVVgJa"
+            caption="Card Carousel"
+            codepen="https://codepen.io/tchewa/pen/aVVgJa"
           />
           <Column
             link="https://ryanw-javascript-clock.netlify.app/"
             image={javascriptClock}
             alt="Javascript Clock"
+            caption="Javascript Clock"
             bgColor="black"
             github="https://github.com/tchewa/javascript-clock"
           />

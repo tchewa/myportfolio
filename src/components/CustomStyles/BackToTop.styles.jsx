@@ -8,9 +8,8 @@ const BackToTopStyles = () => (
         position: fixed;
         bottom: 2rem;
         right: 2rem;
-        background: white;
-        color: black;
-        border: 2px solid black;
+        background: var(--clr-light);
+        border: 2px solid var(--clr-dark);
         border-radius: 50%;
         width: 3rem;
         height: 3rem;
@@ -28,8 +27,8 @@ const BackToTopStyles = () => (
           display: block;
           width: 15px;
           height: 15px;
-          border-left: 2px solid black;
-          border-top: 2px solid black;
+          border-left: 2px solid var(--clr-dark);
+          border-top: 2px solid var(--clr-dark);
           transform: rotate(45deg);
           margin-bottom: -10px;
           margin-right: -2px;

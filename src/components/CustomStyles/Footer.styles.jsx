@@ -7,10 +7,10 @@ const FooterStyles = () => (
       .footer {
         margin-top: -40px;
         padding: 20px 0 20px;
-        background-color: black;
+        background-color: var(--clr-dark);
 
         @media screen and (max-width: 750px) {
-          border-top: 2px solid white;
+          border-top: 2px solid var(--clr-light);
         }
 
         .content {
@@ -20,7 +20,7 @@ const FooterStyles = () => (
           justify-content: space-between;
 
           .social-logo {
-            border: 2px solid white;
+            border: 2px solid var(--clr-light);
           }
 
           @media screen and (max-width: 1200px) {
@@ -28,7 +28,7 @@ const FooterStyles = () => (
           }
 
           a {
-            color: white;
+            color: var(--clr-light);
             text-decoration: none;
           }
         }
@@ -38,7 +38,7 @@ const FooterStyles = () => (
         white-space: nowrap;
         overflow: hidden;
         display: inline-block;
-        border-right: 2px solid black;
+        border-right: 2px solid var(--clr-dark);
         animation: typing 1s steps(30, end),
           blink-cursor 0.75s step-end infinite;
       }
@@ -54,7 +54,7 @@ const FooterStyles = () => (
 
       @keyframes blink-cursor {
         50% {
-          border-color: white;
+          border-color: var(--clr-light);
         }
       }
 
@@ -83,7 +83,7 @@ const FooterStyles = () => (
 
         &.email-footer {
           &:hover {
-            background-color: white;
+            background-color: var(--clr-light);
           }
         }
       }

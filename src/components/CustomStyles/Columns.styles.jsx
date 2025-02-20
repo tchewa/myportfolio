@@ -21,6 +21,41 @@ const ColumnsStyles = () => (
         }
       }
 
+      .bg-black {
+        .caption {
+          color: var(--clr-light);
+          opacity: 1;
+          text-align: left;
+          margin: 0;
+        }
+
+        .column {
+          background-color: var(--clr-slate);
+          border-radius: 10px;
+        }
+      }
+
+      .github-link,
+      .codepen-link {
+        img {
+          max-width: 40px;
+          margin: 0;
+          padding: 5px;
+        }
+      }
+
+      .icon-bg {
+        border-radius: 5px;
+        background-color: var(--clr-dark);
+      }
+
+      .repo-links {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
       .columns-content {
         width: 100%;
         margin: 0 auto;
@@ -49,9 +84,8 @@ const ColumnsStyles = () => (
           }
 
           a {
-            width: 100%;
             display: block;
-            max-width: 75%;
+            margin: 0;
 
             @media screen and (max-width: 750px) {
               max-width: 100%;
@@ -70,8 +104,8 @@ const ColumnsStyles = () => (
 
       .skills {
         span {
-          background-color: black;
-          color: white;
+          background-color: var(--clr-dark);
+          color: var(--clr-light);
           margin: 10px;
           padding: 5px;
           font-size: 0.75em;

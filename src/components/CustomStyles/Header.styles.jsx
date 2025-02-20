@@ -20,12 +20,12 @@ const HeaderStyles = () => (
         @media screen and (max-width: 750px) {
           margin: unset;
           width: unset;
-          border-bottom: 2px solid black;
+          border-bottom: 2px solid var(--clr-dark);
         }
 
         .title {
           text-decoration: none;
-          color: black;
+          color: var(--clr-dark);
         }
 
         a:not(.title) {
@@ -39,7 +39,7 @@ const HeaderStyles = () => (
           white-space: nowrap;
           overflow: hidden;
           display: inline-block;
-          border-right: 2px solid black;
+          border-right: 2px solid var(--clr-dark);
           animation: typing 1s steps(30, end),
             blink-cursor 0.75s step-end infinite;
         }
@@ -85,7 +85,7 @@ const HeaderStyles = () => (
 
         &.email {
           &:hover {
-            background-color: black !important;
+            background-color: var(--clr-dark) !important;
           }
         }
       }
