@@ -9,7 +9,7 @@ import Testimonials from '../components/Testimonials'
 import recommendations from '../components/data/recommendations'
 
 import techLogos from '../images/tech-logos.png'
-import selfPic from '../images/self-pic.png'
+import selfPic from '../images/self-pic-real.png'
 import photography from '../images/site-thumbnails/photography-final.png'
 import greens from '../images/site-thumbnails/mygreens-final.png'
 import multiplication from '../images/site-thumbnails/multiplication.png'
@@ -24,7 +24,7 @@ const IndexPage = () => {
       <Wrapper>
         <BasicContent
           centered
-          mainHeading="Step into My Creative Playground"
+          mainHeading="Crafting Digital Experiences, One Pixel at a Time"
           largeContent="I'm a passionate front-end web developer with a strong foundation in React, JavaScript, HTML, Sass, and many other front-end web technologies"
           image={selfPic}
         />

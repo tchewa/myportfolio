@@ -16,14 +16,14 @@ const CustomStyles = () => (
       }
 
       .self-pic {
-        max-width: 150px;
+        max-width: 230px;
         padding: 20px;
         margin: 0 auto;
         overflow: hidden;
 
         img {
           width: 100%;
-          margin-bottom: -35px;
+          border-radius: 100%;
         }
       }
 

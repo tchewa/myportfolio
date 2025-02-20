@@ -18,6 +18,7 @@ const BasicStyles = ({ bgColor }) => (
         display: flex;
         flex-direction: column;
         gap: 12px;
+        align-items: center;
       }
     `}
   />
