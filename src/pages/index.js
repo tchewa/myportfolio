@@ -63,6 +63,7 @@ const IndexPage = () => {
             singleItem
             bgColor="gray"
             skills="React,Fetch API"
+            github="https://github.com/tchewa/myportfolio/blob/master/src/pages/hacker-top-10.js"
           />
         </Columns>
 

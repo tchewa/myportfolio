@@ -67,6 +67,10 @@ const ColumnsStyles = () => (
           padding: 0 20px;
         }
 
+        .skills {
+          margin: 0;
+        }
+
         .column {
           display: flex;
           flex-direction: column;

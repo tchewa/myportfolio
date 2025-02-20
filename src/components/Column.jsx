@@ -27,6 +27,14 @@ const Column = ({
         </a>
       )}
       <div className="repo-links">
+        {skills && (
+          <div className="skills">
+            Skills:
+            {skills.split(',').map((skill) => (
+              <span>{skill}</span>
+            ))}
+          </div>
+        )}
         {caption && <p className="caption">{caption}</p>}
         {(github || codepen) && (
           <a
@@ -44,14 +52,6 @@ const Column = ({
           </a>
         )}
       </div>
-      {skills && (
-        <div className="skills">
-          Skills:
-          {skills.split(',').map((skill) => (
-            <span>{skill}</span>
-          ))}
-        </div>
-      )}
     </div>
   )
 }

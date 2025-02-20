@@ -37,6 +37,7 @@ const CustomStyles = () => (
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
+        gap: 15px;
 
         .logo-container {
           max-width: 1200px;
@@ -46,6 +47,7 @@ const CustomStyles = () => (
           justify-content: space-between;
           gap: 12px;
           flex-wrap: wrap;
+          align-items: center;
 
           @media screen and (max-width: 1200px) {
             padding: 0 20px;
@@ -59,6 +61,7 @@ const CustomStyles = () => (
 
           @media screen and (max-width: 750px) {
             width: unset;
+            justify-content: space-around;
           }
         }
 
