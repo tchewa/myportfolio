@@ -11,7 +11,7 @@ const recommendations = (
     />
 
     <Recommendation
-      content="I had the pleasure of working with Ryan for almost 6 years at Clearlink. Not only is he a great person, he’s a machine that can crank through tasks like you believe. He has my full recommendation."
+      content="I had the pleasure of working with Ryan for almost 6 years at Clearlink. Not only is he a great person, he’s a machine that can crank through tasks like you wouldn't believe. He has my full recommendation."
       title="Cody Packer, Senior Software Engineer at Clearlink"
       link="https://www.linkedin.com/in/cody-packer/"
     />
