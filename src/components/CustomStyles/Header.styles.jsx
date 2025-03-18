@@ -47,10 +47,13 @@ const HeaderStyles = () => (
         }
 
         &.linkedin,
-        &.email {
+        &.email,
+        &.github {
           &:hover {
             .hide-default {
               display: block;
+              top: -1px;
+              position: relative;
             }
 
             .hide-on-hover {

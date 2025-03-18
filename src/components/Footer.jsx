@@ -3,6 +3,8 @@ import linkedin from '../images/linkedin-footer.png'
 import email from '../images/email-icon-white.png'
 import linkedinwhite from '../images/linkedin-header.png'
 import emailwhite from '../images/email-icon.png'
+import github from '../images/github-black.png'
+import githubblack from '../images/github-inverse.png'
 
 const Footer = () => {
   return (
@@ -24,6 +26,23 @@ const Footer = () => {
               src={linkedinwhite}
               className="hide-default"
               alt="linkedin white icon"
+            />
+          </a>
+          <a
+            className="social-logo github"
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/tchewa"
+          >
+            <img
+              src={githubblack}
+              className="hide-on-hover"
+              alt="github icon"
+            />
+            <img
+              src={github}
+              className="hide-default"
+              alt="github black icon"
             />
           </a>
           <a

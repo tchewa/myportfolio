@@ -54,16 +54,18 @@ const IndexPage = () => {
           content={recommendations}
         />
 
-        <Columns heading="Current Code Challenges" bgColor="white">
+        <Columns heading="Current Personal Works in Progress">
           <Column
-            link="/hacker-top-10"
-            image={hacker}
-            alt="Multiply Me"
-            noTarget
-            singleItem
-            bgColor="gray"
-            skills="React,Fetch API"
-            github="https://github.com/tchewa/myportfolio/blob/master/src/pages/hacker-top-10.js"
+            link="https://ryanwassomphotography.netlify.app/"
+            image={photography}
+            alt="Ryan Wassom Photography"
+            caption="Ryan Wassom Photography"
+          />
+          <Column
+            link="https://mygreens.netlify.app/"
+            image={greens}
+            alt="MyGreens Site"
+            caption="myGreens"
           />
         </Columns>
 
@@ -94,18 +96,16 @@ const IndexPage = () => {
           />
         </Columns>
 
-        <Columns heading="Current Personal Works in Progress">
+        <Columns heading="Current Code Challenges" bgColor="white">
           <Column
-            link="https://ryanwassomphotography.netlify.app/"
-            image={photography}
-            alt="Ryan Wassom Photography"
-            caption="Ryan Wassom Photography"
-          />
-          <Column
-            link="https://mygreens.netlify.app/"
-            image={greens}
-            alt="MyGreens Site"
-            caption="myGreens"
+            link="/hacker-top-10"
+            image={hacker}
+            alt="Multiply Me"
+            noTarget
+            singleItem
+            bgColor="gray"
+            skills="React,Fetch API"
+            github="https://github.com/tchewa/myportfolio/blob/master/src/pages/hacker-top-10.js"
           />
         </Columns>
       </Wrapper>
