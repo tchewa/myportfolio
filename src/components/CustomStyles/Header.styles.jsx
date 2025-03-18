@@ -34,30 +34,6 @@ const HeaderStyles = () => (
           font-size: 34px;
           font-family: 'Rubik', sans-serif;
         }
-
-        .code-effect {
-          white-space: nowrap;
-          overflow: hidden;
-          display: inline-block;
-          border-right: 2px solid var(--clr-dark);
-          animation: typing 1s steps(30, end),
-            blink-cursor 0.75s step-end infinite;
-        }
-
-        @keyframes typing {
-          from {
-            width: 0;
-          }
-          to {
-            width: 11ch;
-          }
-        }
-
-        @keyframes blink-cursor {
-          50% {
-            border-color: transparent;
-          }
-        }
       }
 
       .right-block {

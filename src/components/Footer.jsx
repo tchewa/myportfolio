@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="content">
-        <a href="/" className="title code-effect">
-          <span className="typing-text">{`<MyPortfolio />`}</span>
+        <a href="/" className="title">
+          <span>{`<MyPortfolio />`}</span>
         </a>
 
         <div className="right-block">

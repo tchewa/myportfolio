@@ -25,7 +25,7 @@ const IndexPage = () => {
         <BasicContent
           centered
           mainHeading={`Crafting Digital Experiences, \nOne Pixel at a Time`}
-          largeContent="I'm a passionate front-end web developer with a strong foundation in React, JavaScript, HTML, Sass, and many other front-end web technologies"
+          content="I'm an experienced front-end web developer with over a decade of experience in corporate environments, specializing in React, JavaScript, HTML, CSS, and a range of other front-end technologies. I've worked with clients of all sizes, from large corporate businesses, to small shops. I'd like to leverage that expertise by helping you build an online presence that not only reflects your business' vision but also helps turn your business hopes and dreams into reality. Let’s create something exceptional together."
           image={selfPic}
         />
 

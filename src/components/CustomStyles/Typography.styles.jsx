@@ -54,6 +54,10 @@ const TypographyStyles = () => (
             }
           }
 
+          &.medium {
+            font-size: 27px;
+          }
+
           &.caption {
             font-weight: bold;
             opacity: 0.75;

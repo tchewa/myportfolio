@@ -7,8 +7,8 @@ import emailblack from '../images/email-icon-white.png'
 const Header = () => {
   return (
     <div className="header">
-      <a href="/" className="title code-effect">
-        <span className="typing-text">{`<MyPortfolio />`}</span>
+      <a href="/" className="title">
+        <span>{`<MyPortfolio />`}</span>
       </a>
       <div className="right-block">
         <a

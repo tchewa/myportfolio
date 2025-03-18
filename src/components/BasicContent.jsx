@@ -6,7 +6,6 @@ const BasicContent = ({
   bgColor,
   centered,
   mainHeading,
-  largeContent,
   image,
 }) => {
   return (
@@ -23,7 +22,6 @@ const BasicContent = ({
           </div>
         )}
         {heading && <h2>{heading}</h2>}
-        {largeContent && <p className="large">{largeContent}</p>}
         <p>{content}</p>
       </div>
     </div>
