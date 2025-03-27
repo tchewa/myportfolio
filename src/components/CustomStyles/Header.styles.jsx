@@ -28,7 +28,7 @@ const HeaderStyles = () => (
           color: var(--clr-dark);
         }
 
-        a:not(.title) {
+        a:not(.logo-title) {
           text-decoration: none;
           color: inherit;
           font-size: 34px;
@@ -36,9 +36,23 @@ const HeaderStyles = () => (
         }
       }
 
+      .logo-title {
+        text-decoration: none;
+        color: inherit;
+        font-size: 36px;
+
+        @media screen and (max-width: 750px) {
+          font-size: 25px;
+        }
+      }
+
       .right-block {
         display: flex;
         gap: 15px;
+
+        @media screen and (max-width: 750px) {
+          gap: 10px;
+        }
       }
 
       .social-logo {

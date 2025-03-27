@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="content">
-        <a href="/" className="title">
+        <a href="/" className="logo-title">
           <span>{`<MyPortfolio />`}</span>
         </a>
 

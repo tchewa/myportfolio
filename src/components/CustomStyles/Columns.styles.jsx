@@ -30,7 +30,6 @@ const ColumnsStyles = () => (
         }
 
         .column {
-          background-color: var(--clr-slate);
           border-radius: 10px;
         }
       }
@@ -64,7 +63,6 @@ const ColumnsStyles = () => (
 
         @media screen and (max-width: 750px) {
           flex-direction: column;
-          padding: 0 20px;
         }
 
         .skills {

@@ -113,6 +113,10 @@ const SideBySideStyles = () => (
             }
           }
         }
+
+        @media screen and (max-width: 750px) {
+          gap: 10px;
+        }
       }
     `}
   />

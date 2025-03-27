@@ -21,7 +21,7 @@ const BasicContent = ({
             <img src={image} alt="self-pic" />
           </div>
         )}
-        {heading && <h2>{heading}</h2>}
+        {heading && <h2 class="heading">{heading}</h2>}
         <p>{content}</p>
       </div>
     </div>

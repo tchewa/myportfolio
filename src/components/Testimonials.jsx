@@ -5,7 +5,7 @@ const Testimonials = ({ heading, subheading, content, bgColor }) => {
     <div className={`testimonials bg-${bgColor}`}>
       <div className="testimonial-container">
         <div className="recommendation-wrapper">
-          {heading && <h2>{heading}</h2>}
+          {heading && <h2 class="heading">{heading}</h2>}
           {subheading && <h3>{subheading}</h3>}
           {content}
         </div>

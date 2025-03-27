@@ -30,7 +30,7 @@ const IndexPage = () => {
         />
 
         <SideBySide
-          heading="Crafting Dynamic Web Experiences with Modern Technologies"
+          heading="Creating Dynamic Web Experiences with Modern Technologies"
           content="I bring hands-on experience with frameworks like Gatsby, CMS applications such as Contentful, Wordpress, and Clickability, and technologies like GraphQL to create dynamic, user-centered, and maintainable web experiences. I ambitiously work to stay updated and informed of industry trends and continuously strive to expand my skill set."
           image={techLogos}
           alt="tech stack"
@@ -41,7 +41,7 @@ const IndexPage = () => {
 
         <BasicContent
           bgColor="white"
-          heading="Companies I've Done Work For"
+          heading="Past Collaborations"
           content="I have had the pleasure of contributing to a substantial number of projects with multiple well-regarded companies."
         />
 
@@ -49,12 +49,12 @@ const IndexPage = () => {
 
         <Testimonials
           bgColor="black"
-          heading="People I've Worked With"
+          heading="Professional Connections"
           subheading="I've been truly fortunate to work with and learn from some very talented and amazing individuals. Here's what they've said about me."
           content={recommendations}
         />
 
-        <Columns heading="Current Personal Works in Progress">
+        <Columns heading="Current Works in Progress">
           <Column
             link="https://ryanwassomphotography.netlify.app/"
             image={photography}
@@ -69,7 +69,7 @@ const IndexPage = () => {
           />
         </Columns>
 
-        <Columns heading="A Couple Other Little Creations" bgColor="black">
+        <Columns heading="Other Little Creations" bgColor="black">
           <Column
             link="https://multiplication-table-ryan.netlify.app/"
             image={multiplication}
@@ -96,7 +96,7 @@ const IndexPage = () => {
           />
         </Columns>
 
-        <Columns heading="Current Code Challenges" bgColor="white">
+        <Columns heading="Code Challenges" bgColor="white">
           <Column
             link="/hacker-top-10"
             image={hacker}

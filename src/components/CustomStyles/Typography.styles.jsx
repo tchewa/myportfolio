@@ -10,7 +10,8 @@ const TypographyStyles = () => (
       h4,
       h5,
       h6,
-      .title {
+      .title,
+      .logo-title {
         font-family: 'Rubik', sans-serif;
         font-weight: 700;
         margin: 0;
@@ -31,6 +32,18 @@ const TypographyStyles = () => (
         @media screen and (max-width: 750px) {
           font-size: 25px;
         }
+      }
+
+      h3 {
+        font-size: 28px;
+
+        @media screen and (max-width: 750px) {
+          font-size: 22px;
+        }
+      }
+
+      .heading {
+        text-decoration: underline;
       }
 
       body {

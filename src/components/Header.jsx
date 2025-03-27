@@ -9,7 +9,7 @@ import githubblack from '../images/github-inverse.png'
 const Header = () => {
   return (
     <div className="header">
-      <a href="/" className="title">
+      <a href="/" className="logo-title">
         <span>{`<MyPortfolio />`}</span>
       </a>
       <div className="right-block">

@@ -61,6 +61,10 @@ const FooterStyles = () => (
       .right-block {
         display: flex;
         gap: 15px;
+
+        @media screen and (max-width: 750px) {
+          gap: 10px;
+        }
       }
 
       .social-logo {
