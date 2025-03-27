@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import BaseStyles from './CustomStyles/Global.styles'
-import sitethumbnail from '../images/site-thumbnails/site-thumbnail.png'
+import sitethumbnail from '../images/site-thumbnails/site-thumbnail-2025.png'
 import { Helmet } from 'react-helmet'
 
 export const Head = () => {
