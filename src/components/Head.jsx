@@ -23,7 +23,10 @@ export const Head = () => {
         <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>
         <meta name="description" content={data.site.siteMetadata.description} />
-        <meta property="og:image" content={sitethumbnail} />
+        <meta
+          property="og:image"
+          content={`https://ryanwassomportfolio.netlify.app${sitethumbnail}`}
+        />
       </Helmet>
       <BaseStyles />
     </>
