@@ -16,7 +16,8 @@ import multiplication from '../images/site-thumbnails/multiplication.png'
 import javascriptClock from '../images/site-thumbnails/javascript-clock.png'
 import cardCarousel from '../images/site-thumbnails/card-carousel.png'
 import CompanyLogos from '../components/CompanyLogos'
-import hacker from '../images/site-thumbnails/hacker.png'
+import copytec from '../images/site-thumbnails/copytec.png'
+// import hacker from '../images/site-thumbnails/hacker.png'
 
 const IndexPage = () => {
   return (
@@ -55,6 +56,12 @@ const IndexPage = () => {
         />
 
         <Columns heading="Current Works in Progress">
+          <Column
+            link="https://mygreens.netlify.app/"
+            image={copytec}
+            alt="CopyTec Site"
+            caption="CopyTec"
+          />
           <Column
             link="https://ryanwassomphotography.netlify.app/"
             image={photography}
@@ -96,7 +103,7 @@ const IndexPage = () => {
           />
         </Columns>
 
-        <Columns heading="Code Challenges" bgColor="white">
+        {/* <Columns heading="Code Challenges" bgColor="white">
           <Column
             link="/hacker-top-10"
             image={hacker}
@@ -107,7 +114,7 @@ const IndexPage = () => {
             skills="React,Fetch API"
             github="https://github.com/tchewa/myportfolio/blob/master/src/pages/hacker-top-10.js"
           />
-        </Columns>
+        </Columns> */}
       </Wrapper>
     </>
   )

@@ -8,7 +8,6 @@ const ColumnsStyles = () => (
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 20px;
         padding: 0 20px;
 
         &.bg-black {
@@ -82,12 +81,13 @@ const ColumnsStyles = () => (
           img {
             display: block;
             width: 100%;
-            border-radius: 20px;
           }
 
           a {
             display: block;
             margin: 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+            border-radius: 5px;
 
             @media screen and (max-width: 750px) {
               max-width: 100%;

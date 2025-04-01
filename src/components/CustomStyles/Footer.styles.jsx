@@ -5,8 +5,9 @@ const FooterStyles = () => (
   <Global
     styles={css`
       .footer {
-        margin-top: -40px;
+        margin-top: -20px;
         padding: 20px 0 20px;
+        border-top: 2px solid var(--clr-light);
         background-color: var(--clr-dark);
 
         @media screen and (max-width: 750px) {

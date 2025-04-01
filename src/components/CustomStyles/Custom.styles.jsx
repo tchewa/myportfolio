@@ -85,7 +85,6 @@ const CustomStyles = () => (
       .bg-gray {
         background-color: var(--clr-gray);
         padding: 20px 0;
-        border-radius: 30px;
 
         & * {
           color: var(--clr-dark);
