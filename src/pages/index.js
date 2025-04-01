@@ -57,10 +57,12 @@ const IndexPage = () => {
 
         <Columns heading="Current Works in Progress">
           <Column
-            link="https://mygreens.netlify.app/"
+            link="/"
             image={copytec}
             alt="CopyTec Site"
             caption="CopyTec"
+            noTarget
+            comingSoon
           />
           <Column
             link="https://ryanwassomphotography.netlify.app/"

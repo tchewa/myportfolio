@@ -9,6 +9,7 @@ const Column = ({
   alt,
   bgColor,
   singleItem,
+  comingSoon,
   caption,
   github,
   codepen,
@@ -35,7 +36,13 @@ const Column = ({
             ))}
           </div>
         )}
-        {caption && <p className="caption">{caption}</p>}
+        {caption && (
+          <p className="caption">
+            {caption}
+            {comingSoon && <br />}
+            {comingSoon && '(Coming Soon)'}
+          </p>
+        )}
         {(github || codepen) && (
           <a
             href={github || codepen}
