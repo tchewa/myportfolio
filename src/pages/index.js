@@ -10,13 +10,15 @@ import recommendations from '../components/data/recommendations'
 
 import techLogos from '../images/tech-logos.png'
 import selfPic from '../images/self-pic-real.png'
-import photography from '../images/site-thumbnails/photography-final.png'
-import greens from '../images/site-thumbnails/mygreens-final.png'
+
 import multiplication from '../images/site-thumbnails/multiplication.png'
 import javascriptClock from '../images/site-thumbnails/javascript-clock.png'
+import webDevJeopardy from '../images/site-thumbnails/webdev-jeopardy.png'
 import cardCarousel from '../images/site-thumbnails/card-carousel.png'
 import CompanyLogos from '../components/CompanyLogos'
 import copytec from '../images/site-thumbnails/copytec.png'
+import imagineLandscape from '../images/site-thumbnails/imagine-landscape.png'
+import bbAutoBody from '../images/site-thumbnails/bbautobody.png'
 // import hacker from '../images/site-thumbnails/hacker.png'
 
 const IndexPage = () => {
@@ -32,7 +34,7 @@ const IndexPage = () => {
 
         <SideBySide
           heading="Creating Dynamic Web Experiences with Modern Technologies"
-          content="I bring hands-on experience with frameworks like Gatsby, CMS applications such as Contentful, Wordpress, and Clickability, and technologies like GraphQL to create dynamic, user-centered, and maintainable web experiences. I ambitiously work to stay updated and informed of industry trends and continuously strive to expand my skill set."
+          content="With expertise in frameworks like Gatsby, CMS platforms such as Contentful, WordPress, and Clickability, and technologies like GraphQL, I craft user-focused, scalable, and maintainable web solutions. I’m passionate about staying ahead of industry trends, continuously expanding my skill set to deliver cutting-edge digital experiences."
           image={techLogos}
           alt="tech stack"
           mobileImageStack
@@ -43,7 +45,7 @@ const IndexPage = () => {
         <BasicContent
           bgColor="white"
           heading="Past Collaborations"
-          content="I have had the pleasure of contributing to a substantial number of projects with multiple well-regarded companies."
+          content="I've had the privilege of contributing to impactful projects with renowned companies, including:"
         />
 
         <CompanyLogos />
@@ -51,34 +53,44 @@ const IndexPage = () => {
         <Testimonials
           bgColor="black"
           heading="Professional Connections"
-          subheading="I've been truly fortunate to work with and learn from some very talented and amazing individuals. Here's what they've said about me."
+          subheading="I'm grateful to have worked alongside talented professionals over the years who have helped me feel inspired and challenged. Here’s what they’ve said about me:"
           content={recommendations}
         />
 
-        <Columns heading="Current Works in Progress">
+        <Columns heading="Ongoing Digital Creations">
           <Column
             link="/"
-            image={copytec}
-            alt="CopyTec Site"
-            caption="CopyTec"
+            image={imagineLandscape}
+            alt="Imagine Landscape"
+            caption="Imagine Landscape"
             noTarget
             comingSoon
           />
           <Column
-            link="https://ryanwassomphotography.netlify.app/"
-            image={photography}
-            alt="Ryan Wassom Photography"
-            caption="Ryan Wassom Photography"
+            link="https://copytecpg.com/"
+            image={copytec}
+            alt="CopyTec Site"
+            caption="CopyTec"
+            target="_blank"
           />
           <Column
-            link="https://mygreens.netlify.app/"
-            image={greens}
-            alt="MyGreens Site"
-            caption="myGreens"
+            link="https://www.bbautobody.shop/"
+            image={bbAutoBody}
+            alt="B&B Truck and Auto Body, LLC"
+            caption="B&B Truck and Auto Body, LLC"
+            target="_blank"
           />
         </Columns>
 
-        <Columns heading="Other Little Creations" bgColor="black">
+        <Columns heading="Fun Side Projects" bgColor="black">
+          <Column
+            link="https://ryanwassom.w3spaces.com/jeopardy.html"
+            image={webDevJeopardy}
+            alt="Web Dev Jeopardy"
+            caption="Web Dev Jeopardy"
+            bgColor="black"
+            target="_blank"
+          />
           <Column
             link="https://multiplication-table-ryan.netlify.app/"
             image={multiplication}
