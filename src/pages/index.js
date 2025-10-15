@@ -19,6 +19,8 @@ import CompanyLogos from '../components/CompanyLogos'
 import copytec from '../images/site-thumbnails/copytec.png'
 import imagineLandscape from '../images/site-thumbnails/imagine-landscape.png'
 import bbAutoBody from '../images/site-thumbnails/bbautobody.png'
+import remodelingConcepts from '../images/site-thumbnails/remodeling-concepts.png'
+
 // import hacker from '../images/site-thumbnails/hacker.png'
 
 const IndexPage = () => {
@@ -58,6 +60,14 @@ const IndexPage = () => {
         />
 
         <Columns heading="Ongoing Digital Creations">
+          <Column
+            link="/"
+            image={remodelingConcepts}
+            alt="Remodeling Concepts"
+            caption="Remodeling Concepts"
+            noTarget
+            comingSoon
+          />
           <Column
             link="/"
             image={imagineLandscape}
