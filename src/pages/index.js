@@ -18,6 +18,7 @@ import cardCarousel from '../images/site-thumbnails/card-carousel.png'
 import CompanyLogos from '../components/CompanyLogos'
 import copytec from '../images/site-thumbnails/copytec.png'
 import imagineLandscape from '../images/site-thumbnails/imagine-landscape.png'
+import andrewExcavation from '../images/site-thumbnails/andrew-excavation.png'
 import bbAutoBody from '../images/site-thumbnails/bbautobody.png'
 import remodelingConcepts from '../images/site-thumbnails/remodeling-concepts.png'
 
@@ -65,7 +66,7 @@ const IndexPage = () => {
             image={remodelingConcepts}
             alt="Remodeling Concepts"
             caption="Remodeling Concepts"
-            noTarget
+            target="_blank"
           />
           <Column
             link="https://www.bbautobody.shop/"
@@ -73,6 +74,14 @@ const IndexPage = () => {
             alt="B&B Truck and Auto Body, LLC"
             caption="B&B Truck and Auto Body, LLC"
             target="_blank"
+          />
+          <Column
+            link="/"
+            image={andrewExcavation}
+            alt="Andrew Excavation & Septic, LLC"
+            caption="Andrew Excavation & Septic, LLC"
+            noTarget
+            comingSoon
           />
           <Column
             link="/"
