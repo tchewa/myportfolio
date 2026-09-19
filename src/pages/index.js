@@ -60,7 +60,7 @@ const IndexPage = () => {
           content={recommendations}
         />
 
-        <Columns heading="Ongoing Digital Creations">
+        <Columns heading="Client Projects">
           <Column
             link="https://remodelingconcepts.org"
             image={remodelingConcepts}
