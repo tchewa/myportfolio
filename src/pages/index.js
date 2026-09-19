@@ -61,12 +61,18 @@ const IndexPage = () => {
 
         <Columns heading="Ongoing Digital Creations">
           <Column
-            link="/"
+            link="https://remodelingconcepts.org"
             image={remodelingConcepts}
             alt="Remodeling Concepts"
             caption="Remodeling Concepts"
             noTarget
-            comingSoon
+          />
+          <Column
+            link="https://www.bbautobody.shop/"
+            image={bbAutoBody}
+            alt="B&B Truck and Auto Body, LLC"
+            caption="B&B Truck and Auto Body, LLC"
+            target="_blank"
           />
           <Column
             link="/"
@@ -75,20 +81,6 @@ const IndexPage = () => {
             caption="Imagine Landscape"
             noTarget
             comingSoon
-          />
-          <Column
-            link="https://copytecpg.com/"
-            image={copytec}
-            alt="CopyTec Site"
-            caption="CopyTec"
-            target="_blank"
-          />
-          <Column
-            link="https://www.bbautobody.shop/"
-            image={bbAutoBody}
-            alt="B&B Truck and Auto Body, LLC"
-            caption="B&B Truck and Auto Body, LLC"
-            target="_blank"
           />
         </Columns>
 
