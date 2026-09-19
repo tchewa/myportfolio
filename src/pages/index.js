@@ -76,7 +76,6 @@ const IndexPage = () => {
             target="_blank"
           />
           <Column
-            link="/"
             image={andrewExcavation}
             alt="Andrew Excavation & Septic, LLC"
             caption="Andrew Excavation & Septic, LLC"
@@ -84,7 +83,6 @@ const IndexPage = () => {
             comingSoon
           />
           <Column
-            link="/"
             image={imagineLandscape}
             alt="Imagine Landscape"
             caption="Imagine Landscape"
